@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage.js';
-import { ProfilePage } from '../pages/ProfilePage.js';
-import { BookStorePage } from '../pages/BookStorePage.js';
-import { writeToFile } from '../utils/fileUtils.js';
+import { LoginPage } from '../../pages/LoginPage.js';
+import { ProfilePage } from '../../pages/ProfilePage.js';
+import { BookStorePage } from '../../pages/BookStorePage.js';
+import { writeToFile } from '../../utils/fileUtils.js';
 
 const USERNAME = process.env.DEMOQA_USERNAME;
 const PASSWORD = process.env.DEMOQA_PASSWORD;
